@@ -1,6 +1,9 @@
-/*	--------------------
-	This program calculates and displays all the powers
-	of a number up to a user specified limit.
+/*
+ * File: PowersOf.cpp
+ * ------------------
+ * This program generates a list of powers of
+ * a specified number up to an exponent limit
+ * entered by the user.
 */
 
 #include <iostream>
@@ -25,10 +28,12 @@ int main() {
 	return 0;
 }
 
-/*	Raises a number to a power.
-	base: The number to raise to a power.
-	power: The exponent to raise a number to.
-*/
+/* Raises a number to a power
+ * --------------------------
+ * base: The number to raise to a 
+ * power: The exponent to raise a number to.
+ */
+
 int raiseBaseToPower(int base, int power) {
 	int result = 1;
 
@@ -37,3 +42,4 @@ int raiseBaseToPower(int base, int power) {
 	}
 	return result;
 }
+
