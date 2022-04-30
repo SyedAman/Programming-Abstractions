@@ -8,6 +8,7 @@
 
 #include <iostream>
 
+/* Function prototype. */
 int raiseBaseToPower(int base, int power);
 
 int main() {
